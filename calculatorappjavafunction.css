@@ -1,0 +1,46 @@
+.calculator-buttons{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:auto auto auto ;
+    padding: 20px;
+    font-size: 150px;
+    border: solid 5px black;
+    background-color: gray;
+    border-radius:20px ;
+}
+.formstyle{
+    display: grid;
+    justify-content: center;
+    color: ghostwhite;
+    border:solid 5px black;
+    padding: 25px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,175,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+.calc-button{
+    padding: 40px;
+}
+
+.calc-button:hover {
+    background-color: lightskyblue;
+
+    
+}
+
+.textview{
+    display: grid;
+    justify-content: center;
+}
+
+.textview{
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+    margin-left: 37px;
+    border: solid 5px black;
+    border-radius:20px ;
+}
+.calculator{
+    margin: 20px;
+    background-color: cornflowerblue;
+}
